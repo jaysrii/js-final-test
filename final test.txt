@@ -1,0 +1,37 @@
+1)<html>
+<head>
+</head>
+<body>
+   <input type="text" id="input1"/>
+   <button onclick="add()">Toggle Bold</button>
+   <div>
+       <b><ul id="result"></ul></b>
+   </div>
+   <script>
+     function add()
+     {
+       const inputvalue = document.getElementById("input1").value;
+       const htmlstring = "<li>" + inputvalue +"</li>";
+       document.getElementById("result").innerHTML += htmlstring;
+       document.getElementById("input1").value ="";
+     }
+   </script>
+</body>
+</html>
+
+1)When should a loop be used?
+ans= loops are repeate until a speficed condition evaluate to false.
+
+2)When should code branching be used?
+ans= code branching statement execute a statement if a speficed condition of truthy.if the condition is falsy.
+
+3)When should an object be used?
+ans= object is containing all the element with the spefice class name in the doucment as object.
+
+4)What does the Array.forEach() method return?
+ans= for each array method instanes the execute a provied function once for each array element,returen the undefind.
+
+5)What does the Array.find() method return?
+ans= array find method instance returen the first element in the provided array that satisfies the provided testing function.
+
+
